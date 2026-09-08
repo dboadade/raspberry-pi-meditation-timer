@@ -10,9 +10,9 @@ pygame.mixer.init(frequency=44100, size=-16, channels=2, buffer=4096)
 
 gong_sound = None
 try:
-    gong_sound = pygame.mixer.Sound("/home/pi/gong.wav")
+    gong_sound = pygame.mixer.Sound("/home/pi/Gong_3_times.mp3")
 except Exception as e:
-    print("Warning: gong.wav load error:", e)
+    print("Warning: Gong_3_times.mp3 load error:", e)
 
 # Pre-load MP3 into Pygame music engine
 has_music_file = False
